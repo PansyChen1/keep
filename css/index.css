@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #eee;
+}
+.head{
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    padding: 10px;
+}
+.head-panel{
+    display: flex;
+    justify-content: space-between;
+}
+.slide-bar li{
+    float: left;
+    width: 16%;
+    list-style: none;
+    text-align: center;
+}
+.content{
+    background: #fff;
+}
